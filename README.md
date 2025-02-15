@@ -53,3 +53,28 @@ Consider the array `[64, 34, 25, 12, 22, 11, 90]`:
 ### Code
 
 The implementation of bubble sort in Python can be found in the `bubblesort.py` file.
+
+## Linear Search
+
+Linear search is a simple search algorithm that checks each element in the array sequentially until the target element is found or the end of the array is reached.
+
+### Process
+
+1. **Start at the beginning** of the array.
+2. **Compare the current element** with the target element.
+3. **If the current element** matches the target, return the index of the current element.
+4. **If the current element** does not match the target, move to the next element.
+5. **Repeat** the process until the target element is found or the end of the array is reached.
+
+### Example
+
+Consider the array `[2, 4, 6, 8, 10]` and the target element `6`:
+
+- Start with the first element `2`. It does not match the target.
+- Move to the next element `4`. It does not match the target.
+- Move to the next element `6`. It matches the target.
+- Return the index `2`.
+
+### Code
+
+The implementation of linear search in Python can be found in the `linearsearch.py` file.
