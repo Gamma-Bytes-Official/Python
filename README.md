@@ -78,3 +78,63 @@ Consider the array `[2, 4, 6, 8, 10]` and the target element `6`:
 ### Code
 
 The implementation of linear search in Python can be found in the `linearsearch.py` file.
+
+## Stack Operations
+
+A stack is a linear data structure that follows the Last In First Out (LIFO) principle. The two primary operations for a stack are `push` and `pop`.
+
+### Push Operation
+
+The `push` operation adds an element to the top of the stack.
+
+**Process:**
+1. Take the element to be added.
+2. Place it on the top of the stack.
+
+**Example:**
+Consider a stack with elements `[1, 2]`. If we push `3` onto the stack, it becomes `[1, 2, 3]`.
+
+### Pop Operation
+
+The `pop` operation removes the top element from the stack.
+
+**Process:**
+1. Check if the stack is not empty.
+2. Remove the top element from the stack and return it.
+
+**Example:**
+Consider a stack with elements `[1, 2, 3]`. If we pop an element from the stack, it becomes `[1, 2]` and the popped element is `3`.
+
+### Code Example
+
+The implementation of the `push` and `pop` operations in Python can be found in the `stack.py` file.
+
+## Queue Operations
+
+A queue is a linear data structure that follows the First In First Out (FIFO) principle. The two primary operations for a queue are `enqueue` and `dequeue`.
+
+### Enqueue Operation
+
+The `enqueue` operation adds an element to the end of the queue.
+
+**Process:**
+1. Take the element to be added.
+2. Place it at the end of the queue.
+
+**Example:**
+Consider a queue with elements `[1, 2]`. If we enqueue `3` to the queue, it becomes `[1, 2, 3]`.
+
+### Dequeue Operation
+
+The `dequeue` operation removes the front element from the queue.
+
+**Process:**
+1. Check if the queue is not empty.
+2. Remove the front element from the queue and return it.
+
+**Example:**
+Consider a queue with elements `[1, 2, 3]`. If we dequeue an element from the queue, it becomes `[2, 3]` and the dequeued element is `1`.
+
+### Code Example
+
+The implementation of the `enqueue` and `dequeue` operations in Python can be found in the `queue.py` file.
