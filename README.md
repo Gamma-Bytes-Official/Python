@@ -26,3 +26,30 @@ Consider the array `[12, 11, 13, 5, 6]`:
 ### Code
 
 The implementation of insertion sort in Python can be found in the `insertionsort.py` file.
+
+## Bubble Sort
+
+Bubble sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted.
+
+### Process
+
+1. **Start at the beginning** of the array.
+2. **Compare the first two elements**. If the first is greater than the second, swap them.
+3. **Move to the next pair** of elements, compare them, and swap if necessary.
+4. **Continue** this process for each pair of adjacent elements to the end of the array. This completes one pass.
+5. **Repeat** the process for the entire array until no swaps are needed, indicating that the array is sorted.
+
+### Example
+
+Consider the array `[64, 34, 25, 12, 22, 11, 90]`:
+
+- Start with the first two elements `64` and `34`. Swap them because `64 > 34`.
+- The array becomes `[34, 64, 25, 12, 22, 11, 90]`.
+- Move to the next pair `64` and `25`. Swap them because `64 > 25`.
+- The array becomes `[34, 25, 64, 12, 22, 11, 90]`.
+- Continue this process for the entire array. After the first pass, the largest element `90` is at the end.
+- Repeat the process for the remaining elements until the array is sorted.
+
+### Code
+
+The implementation of bubble sort in Python can be found in the `bubblesort.py` file.
